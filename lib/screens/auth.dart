@@ -36,12 +36,13 @@ class _AuthScreenState extends State<AuthScreen> {
       if (!isAuthenticated) {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
-            backgroundColor: Colors.deepOrange,
+            backgroundColor: Colors.red,
             showCloseIcon: true,
             content: Text(
-              "Cannot authenticate you",
+              "Unable to verify your identity!",
               style: TextStyle(
                 color: Colors.black,
+                fontSize: 17
               ),
             ),
           ),
