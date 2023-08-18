@@ -40,16 +40,13 @@ class _AuthScreenState extends State<AuthScreen> {
             showCloseIcon: true,
             content: Text(
               "Unable to verify your identity!",
-              style: TextStyle(
-                color: Colors.black,
-                fontSize: 17
-              ),
+              style: TextStyle(color: Colors.black, fontSize: 17),
             ),
           ),
         );
         return;
       }
-      Navigator.pushReplacementNamed(context, "/home");
+      Navigator.pushNamed(context, "/home");
     }
   }
 
