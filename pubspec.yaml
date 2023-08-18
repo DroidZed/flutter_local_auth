@@ -1,0 +1,28 @@
+name: flutter_local_auth
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  biometric_storage: ^5.0.0
+  cryptography: ^2.5.0
+  encrypt: ^5.0.1
+  flutter:
+    sdk: flutter
+  fluttertoast: ^8.2.2
+  local_auth: ^2.1.6
+  pinenacl: ^0.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
